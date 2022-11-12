@@ -6,13 +6,18 @@ First, run the development server:
 
 ```bash
 git clone https://github.com/muria-dev/muriadev-website
-
 cd muria-dev
+```
+
+```bash
 yarn
 #or
 npm install
 #or
 pnpm install #recomended
+```
+
+```bash
 npm run dev
 # or
 yarn dev
