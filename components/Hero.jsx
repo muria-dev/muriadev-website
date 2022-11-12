@@ -24,7 +24,7 @@ export default function Hero() {
           <div>
             <Image
               className="block ml-auto"
-              src={"/images/hero.png"}
+              src={"/images/Hero.png"}
               width={526}
               height={526}
               alt="hero image"
