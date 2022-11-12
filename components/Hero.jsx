@@ -27,6 +27,7 @@ export default function Hero() {
               src={"/images/hero.png"}
               width={526}
               height={526}
+              alt="hero image"
             />
           </div>
         </div>
