@@ -1,4 +1,4 @@
-#Muria Dev Website
+# Muria Dev Website
 
 ## Deploy On Your Localhost
 
@@ -8,10 +8,14 @@ First, run the development server:
 git clone https://github.com/muria-dev/muriadev-website
 
 cd muria-dev
-
-yarn or npm install
-
+yarn
+#or
+npm install
+#or
+pnpm install #recomended
 npm run dev
 # or
 yarn dev
+#or
+pnpm dev #recomended
 ```
