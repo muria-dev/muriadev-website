@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <div className="container mx-auto p-4">
         <nav className="flex justify-between items-center text-white pt-6">
-          <h1 className="text-4xl">MuriaDev</h1>
+          <h1 className="text-4xl cursor-pointer">MuriaDev</h1>
           <ul className="flex gap-4 items-center">
             <li>
               <Link className="p-2 text-xl" href={"/"}>
@@ -28,15 +28,15 @@ export default function Header() {
                 Contact
               </Link>
             </li>
-            <li className="bg-[#D0BCFF] w-10 h-10 mx-5 rounded-full flex items-center justify-center">
+            <li className="bg-[#D0BCFF] w-10 h-10 mx-5 rounded-full flex items-center justify-center cursor-pointer">
               <Image src="/images/icon.png" width={17} height={17} />
             </li>
             <li className="">
               <Link
                 className="px-6 py-3 text-xl rounded-full bg-[#D0BCFF] text-[#381E72] "
-                href={"/gabung"}
+                href={"/join"}
               >
-                Gabung
+                Gabung Sekarang
               </Link>
             </li>
           </ul>
