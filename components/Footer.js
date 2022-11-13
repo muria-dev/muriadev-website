@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className=" bg-[#3b3844] mt-96 ">
+      <footer className=" bg-[#3b3844] ">
         <div className="container mx-auto ">
           <div className="py-4">
             <h3 className="text-white text-4xl text-center">

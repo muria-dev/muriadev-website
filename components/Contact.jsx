@@ -4,7 +4,7 @@ import Title from "./Title";
 export default function Contact() {
   return (
     <>
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-4 mb-40 ">
         <div className="bg-gradient-to-b from-blue-500 via-blue-600 to-blue-500 p-8 rounded-xl py-20 flex justify-between items-center">
           <div>
             <h1 className="text-white text-5xl font-bold">

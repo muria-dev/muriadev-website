@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Join() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-screen">
         <div>
           <h1 className="text-white text-6xl font-bold leading-tight mt-28">
             Gabung sekarang bersama kami
