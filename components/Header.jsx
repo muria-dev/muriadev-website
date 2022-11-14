@@ -29,7 +29,12 @@ export default function Header() {
               </Link>
             </li>
             <li className="bg-[#D0BCFF] w-10 h-10 mx-5 rounded-full flex items-center justify-center cursor-pointer">
-              <Image src="/images/icon.png" width={17} height={17} />
+              <Image
+                src="/images/icon.png"
+                width={17}
+                height={17}
+                alt="search"
+              />
             </li>
             <li className="">
               <Link
