@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <>
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 mt-28">
+        <div className="grid grid-cols-1 p-4 md:grid-cols-2 mt-28">
           <div>
-            <h1 className="text-white text-6xl font-bold leading-tight">
+            <h1 className="text-white md:text-6xl text-4xl font-bold leading-tight">
               Welcome to Muria Dev Community
             </h1>
             <p className="text-white my-8 text-[22px] ">
@@ -21,7 +21,7 @@ export default function Hero() {
               More Information
             </Link>
           </div>
-          <div>
+          <div className="">
             <Image
               className="block ml-auto"
               src={"/images/Hero.png"}

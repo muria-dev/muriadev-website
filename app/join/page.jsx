@@ -5,7 +5,7 @@ export default function Join() {
   return (
     <>
       <div className="container mx-auto min-h-screen">
-        <div>
+        <div className="p-4">
           <h1 className="text-white text-6xl font-bold leading-tight mt-28">
             Gabung sekarang bersama kami
           </h1>
