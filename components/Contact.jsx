@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       <div className="container mx-auto p-4 mb-40 ">
-        <div className="bg-gradient-to-b from-blue-500 via-blue-600 to-blue-500 p-8 rounded-xl py-20 flex gap-8 flex-col md:flex-row md:justify-between md:items-center">
+        <div className="bg-gradient-to-b from-[#8330EE] via-[#3065CD] to-[#3065CD] p-8 rounded-xl py-20 flex gap-8 flex-col md:flex-row md:justify-between md:items-center">
           <div>
             <h1 className="text-white text-5xl font-bold">
               Apakah mempunyai pesan?
