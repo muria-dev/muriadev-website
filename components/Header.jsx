@@ -58,14 +58,14 @@ export default function Header() {
                   Contact
                 </Link>
               </li>
-              <li className="bg-[#D0BCFF] w-10 h-10 mx-5 rounded-full flex items-center justify-center cursor-pointer">
+              {/* <li className="bg-[#D0BCFF] w-10 h-10 mx-5 rounded-full flex items-center justify-center cursor-pointer">
                 <Image
                   src="/images/icon.png"
                   width={17}
                   height={17}
                   alt="search"
                 />
-              </li>
+              </li> */}
               <li className="">
                 <Link
                   className="px-6 py-3 text-xl rounded-full bg-[#D0BCFF] text-[#381E72] "
