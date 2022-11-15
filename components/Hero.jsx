@@ -21,6 +21,7 @@ export default function Hero() {
               More Information
             </Link>
           </div>
+
           <div className="">
             <Image
               className="block ml-auto"
