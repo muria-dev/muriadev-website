@@ -2,15 +2,19 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import Router from "next/router";
 import { useState } from "react";
 
 export default function Header() {
   const [Toggle, setToggle] = useState(false);
 
+  // if change location, close the menu
+
   function toggleHandler(e) {
     e.preventDefault();
     setToggle(!Toggle);
   }
+
   return (
     <>
       <div className="container mx-auto p-4">
@@ -24,7 +28,7 @@ export default function Header() {
                     ? "rounded border-2 p-1"
                     : " rounded border-2 border-transparent p-1"
                 }
-                onClick={toggleHandler}
+                onClick={toggleHandler.bind(this)}
               >
                 <span className="my-1 block h-[2px] w-5 bg-white"></span>
                 <span className="my-1 block h-[2px] w-5 bg-white"></span>
@@ -34,27 +38,39 @@ export default function Header() {
             <ul
               className={
                 Toggle
-                  ? " absolute right-0 h-1/2 w-screen gap-4  flex flex-col items-center justify-center rounded-md bg-black p-4 shadow-lg transition duration-100"
+                  ? " absolute right-0 top-24 h-1/2 w-screen shadow-2xl gap-8 rounded-lg flex flex-col items-center justify-center  bg-[#3b3844] p-4  transition duration-100"
                   : "hidden lg:flex"
               }
             >
               <li>
-                <Link className="p-2 text-xl" href={"/"}>
+                <Link
+                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  href={"./"}
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="p-2 text-xl" href={"/about"}>
+                <Link
+                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  href={"/about"}
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link className="p-2 text-xl" href={"/events"}>
+                <Link
+                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  href={"/events"}
+                >
                   Events
                 </Link>
               </li>
               <li>
-                <Link className="p-2 text-xl" href={"/contact"}>
+                <Link
+                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  href={"/contact"}
+                >
                   Contact
                 </Link>
               </li>
@@ -68,7 +84,7 @@ export default function Header() {
               </li> */}
               <li className="">
                 <Link
-                  className="px-6 py-3 text-xl rounded-full bg-[#D0BCFF] text-[#381E72] "
+                  className="px-6 py-3 md:ml-12 text-xl rounded-full bg-[#D0BCFF] text-[#381E72]  hover:bg-[#381E72] hover:text-white duration-300"
                   href={"/join"}
                 >
                   Gabung Sekarang
