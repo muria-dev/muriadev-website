@@ -5,9 +5,6 @@
 //     domains: ["logodownload.org"],
 
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   images: {
     domains: ["logodownload.org"],
   },
