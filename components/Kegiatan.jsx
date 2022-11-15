@@ -7,7 +7,7 @@ export default function Kegiatan() {
       <div className="container mx-auto">
         <div className="mt-36">
           <Title title="Mengapa Harus Muria Dev?" />
-          <div className="mt-28 flex md:justify-between md:flex-row flex-col justify-center items-center gap-4 p-4">
+          <div className="mt-28 flex md:justify-between md:flex-row flex-col justify-center items-center gap-8 p-4">
             <Card
               icon={"/images/kegiatan1.png"}
               title={"Kode Open Source"}
