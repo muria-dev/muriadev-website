@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import Layout from "../../components/Layout";
 
 export default function Join() {
   return (
-    <>
+    <Layout>
       <div className="container mx-auto min-h-screen">
         <div className="p-4">
           <h1 className="text-white text-6xl font-bold leading-tight mt-28">
@@ -29,6 +30,6 @@ export default function Join() {
           </Link>
         </div>
       </div>
-    </>
+    </Layout>
   );
 }
