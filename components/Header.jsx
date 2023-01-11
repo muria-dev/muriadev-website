@@ -18,8 +18,8 @@ export default function Header() {
   return (
     <>
       <div className="container mx-auto p-4">
-        <nav className="flex justify-between items-center text-white pt-6">
-          <h1 className="text-4xl cursor-pointer">MuriaDev</h1>
+        <nav className="flex items-center justify-between pt-6 text-white">
+          <h1 className="cursor-pointer text-4xl">MuriaDev</h1>
           <ul>
             <li className="lg:hidden">
               <button
@@ -38,13 +38,13 @@ export default function Header() {
             <ul
               className={
                 Toggle
-                  ? " absolute right-0 top-24 h-1/2 w-screen shadow-2xl gap-8 rounded-lg flex flex-col items-center justify-center  bg-[#3b3844] p-4  transition duration-100"
+                  ? " absolute right-0 top-24 flex h-[400px] w-screen flex-col items-center justify-center gap-8 rounded-lg bg-[#3b3844]  p-4 shadow-2xl  transition duration-100"
                   : "hidden lg:flex"
               }
             >
               <li>
                 <Link
-                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  className="p-2 text-xl duration-150 hover:text-purple-200"
                   href={"./"}
                 >
                   Home
@@ -52,7 +52,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  className="p-2 text-xl duration-150 hover:text-purple-200"
                   href={"/about"}
                 >
                   About
@@ -60,7 +60,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  className="p-2 text-xl duration-150 hover:text-purple-200"
                   href={"/events"}
                 >
                   Events
@@ -68,7 +68,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  className="p-2 text-xl hover:text-purple-200 duration-150"
+                  className="p-2 text-xl duration-150 hover:text-purple-200"
                   href={"/contact"}
                 >
                   Contact
@@ -84,7 +84,7 @@ export default function Header() {
               </li> */}
               <li className="">
                 <Link
-                  className="px-6 py-3 md:ml-12 text-xl rounded-full bg-[#D0BCFF] text-[#381E72]  hover:bg-[#381E72] hover:text-white duration-300"
+                  className="rounded-full bg-[#D0BCFF] px-6 py-3 text-xl text-[#381E72] duration-300  hover:bg-[#381E72] hover:text-white md:ml-12"
                   href={"/join"}
                 >
                   Gabung Sekarang
